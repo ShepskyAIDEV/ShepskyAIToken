@@ -218,10 +218,10 @@ contract Token is Context, IERC20Metadata, Ownable {
     _name = 'shepskyai';
     _symbol = 'SEKY';
     _mint(0x5b23b9fC9b8ba4c78b1C36b4c5B3B578C1af7aE1, presaleReserve);
-    _mint(0xAF6a14A563C092A39dC8b55a0A3693E055A36fB6, marketingReserve);
+    _mint(0xEc3b9370bfbcfACfaaA1A08852C5531a28123010, marketingReserve);
     _mint(0xC03F88af8bbCB751916c5599E55a972703954b74, stakingReserve);
-    _mint(0x2708eB5D890bcF845A9f639662282b73acDaFb5d, projectFundsReserve);
-    _mint(0x8da7619863917dBC93dA062e7e5911420009E5DC, liquidityReserve);
+    _mint(0xAD9944d6147321Bff506638e486B10de39F497A0, projectFundsReserve);
+    _mint(0xdd0074aF8ae9dBB9809865d613118D0084d8d8c6, liquidityReserve);
   }
 
   /**
